@@ -1,42 +1,124 @@
 body {
 
     background-color: rgba(31,46,79, 0.5);
-    color: #fff
+    color: #fff;
+    font-family: 'Roboto', sans-serif ;
     
     
 }
 
+#association {
+
+    background-color: #445E77 ;
+    height: 400px ;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+#association h1 {
+
+    font-size: 50px;
+
+}
+
+#association p {
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#evenements {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section {
+
+    margin: 100px;
+
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 40px;
+
+}
 
 .card {
-    position: relative;
+
+    display: flex;
     background: #445E77;
-    height: 190px;
-    width: 500px;
+    height: 350px;
+    width: 900px;
+    margin: 3em;
+}
+
+.card h3 {
+
+    font-size: 25px;
 
 }
 
 .imgBox {
 
-    position: absolute;
-    width: 300px;
-    height: 190px;
-    background-color: #000;
+    flex: 2;
 
 }
 
 .imgBox img {
 
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 
 }
 
-.card .content {
+#mario {
+
+    object-position: 0px -90px;
+
+}
+
+.content {
+
+    flex: 1;
+
+}
+
+.details {
+
+    position: relative;
+    margin-left: 5%;
+}
+
+.details h3 {
 
     position: absolute;
-    margin: 0;
+    top: 20px;
+
+}
+
+.details .description {
+
+    position: absolute;
+    top: 100px;
+    margin: 10%;
+
+
+}
+
+.details .date {
+
+    position: absolute;
+    top: 280px;
+    right: 40px;
+
 }
