@@ -1,0 +1,60 @@
+body {
+
+    background-color: rgba(31, 46, 79, 0.5);
+    color: white;
+}
+
+
+#association {
+
+    background-color: #445E77;
+
+}
+
+
+#description_asssociation {
+
+    height: 500px;
+
+}
+
+
+#staff {
+
+    background-color: #445E77;
+    
+}
+
+
+#cards_staff {
+
+    display: flex;
+
+
+}
+
+
+.card {
+    
+    background-color: rgba(31, 46, 79, 0.5);
+    height: 580px;
+    width: 570px;
+    text-align: center;
+    margin: 20px;
+    
+
+}
+
+
+.card img {
+
+    /*height: 275px;
+    width: 180px;*/
+    height: 45%;
+    max-width: 60%;
+    object-fit: fill;
+    margin-top: 30px;
+    
+
+
+}
